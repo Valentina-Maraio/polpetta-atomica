@@ -6,7 +6,6 @@ const Other = () => {
 
   return (
     <div>
-        <h2>Other</h2>
         <ul>
             {results.map((result) => (
                 <li>{result.title}</li>

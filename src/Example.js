@@ -6,7 +6,6 @@ const Example = () => {
 
   return (
     <div>
-        <h2>Example</h2>
         <ul>
             {results.map((result) => (
                 <li>{result.title}</li>

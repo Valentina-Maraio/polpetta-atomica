@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Polpetta Atomica</h1>
-        <div className='text'>
+        <div>
         <ExampleProvider>
           <Example />
         </ExampleProvider>

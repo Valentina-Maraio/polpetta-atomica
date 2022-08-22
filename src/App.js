@@ -1,9 +1,8 @@
 import logo from './polpettaAtomica.png';
 import './App.css';
 import Example from './Example'
-import Other from './Other'
 import { ExampleProvider} from './ExampleContext'
-import { OtherProvider} from './OtherContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -15,9 +14,6 @@ function App() {
         <ExampleProvider>
           <Example />
         </ExampleProvider>
-        <OtherProvider>
-          <Other />
-        </OtherProvider>
         </div>
       </header>
     </div>
